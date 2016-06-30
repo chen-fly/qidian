@@ -1,0 +1,237 @@
+#container{
+    .m-index{
+        .m-special{
+            @include flexbox();
+            @include flex-direction(column);
+            width: 100%;
+            height: 100%;
+            header{
+                width: 100%;
+                height: .44rem;
+
+                ul.headerList{
+                    @include flexbox();
+                    @include box-sizing(border-box);
+                    height: 100%;
+                    background-color: #B42737;
+
+                    li{
+                        height: 100%;
+                        text-align: center;
+                        line-height: .44rem;
+                        font-weight: bolder;
+                        color: #fff;
+
+
+                        &:nth-child(1){
+                            width: .66rem;
+                        };
+                        &:nth-child(2){
+                            @include flex(1);
+                            @include flexbox();
+                            @include justify-content(center);
+                            @include align-items(center);
+
+                            div{
+                                @include flexbox();
+                                @include border(2px, #fff);
+                                @include align-items(center);
+
+                                width: 1.18rem;
+                                height: .3rem;
+                                border-radius: .05rem;
+                                overflow: hidden;
+
+                                span{
+                                    display: block;
+                                    @include flex(1);
+                                    background-color: #B42737;
+                                    color: #fff;
+
+
+                                    &.active{
+                                        background-color: #fff;
+                                        color: #B42737;
+                                    }
+                                }
+                            }
+                        };
+                        &.yo-ico{
+                            width: .44rem;
+                            font-size: .2rem;
+                        };
+                    }
+                }
+            }
+            #special-sex-swiper{
+                width: 100%;
+                height: 100%;
+                .swiper-wrapper{
+                    width: 100%;
+                    height: 100%;
+
+                    .swiper-slide{
+                        @include flexbox();
+                        @include flex-direction(column);
+                        width: 100%;
+                        height: 100%;
+
+                        nav{
+                            width: 100%;
+                            height: 1.08rem;
+
+                            #special-auto-swiper,#special-auto2-swiper{
+                                width: 100%;
+                                height: 100%;
+
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                }
+                            }
+                        }
+                        .broadcast{
+                            @include box-sizing(border-box);
+                            width: 100%;
+                            height: .3rem;
+                            margin-top: .08rem;
+                            font-size: .12rem;
+                            line-height: .3rem;
+                            background-color: #FAFAFA;
+
+                            img{
+                                height: .3rem;
+                            }
+                        }
+
+                        #special-swiper{
+                            @include flex(1);
+                            width: 100%;
+
+                            section{
+                                width: 100%;
+                                height: 100%;
+                                overflow: hidden;
+
+                                .special-moudle{
+                                    width: 100%;
+                                    height: 100%;
+                                    margin-top: .08rem;
+                                    background-color: #fff;
+
+                                    .title{
+                                        height: .4rem;
+                                        line-height: .4rem;
+                                        *{
+                                            display: inline-block;
+                                        }
+                                        h2{
+                                            height: 100%;
+                                            font-size: .16rem;
+                                            background-color: #B42737;
+                                            color: #fff;
+                                            padding: 0 .1rem;
+                                        }
+                                        span{
+                                            height: 100%;
+                                            font-size: .1rem;
+                                        }
+                                    }
+                                    .main-list{
+                                        @include flexbox();
+                                        @include box-sizing(border-box);
+                                        @include border(0 0 1px 0, #C5C5C7);
+                                        width: 100%;
+                                        padding: .1rem;
+
+                                        img{
+                                            display: inline-block;
+                                            @include box-sizing(border-box);
+                                            @include border(1px, #C5C5C7);
+                                            height: .8rem;
+                                        }
+                                        .intd{
+                                            @include flex(1);
+                                            @include box-sizing(border-box);
+                                            display: inline-block;
+                                            vertical-align: top;
+                                            margin-left: .05rem;
+                                            width: 2.3rem;
+                                            height: .8rem;
+                                            position: relative;
+
+                                            h2{
+                                                height: .14rem;
+                                                font-size: 10px;
+                                            }
+                                            p{
+                                                @include box-sizing(border-box);
+                                                display: block;
+                                                font-size: .1rem;
+                                                margin-top: .05rem;
+                                                color: #C5C5C7;
+                                            }
+                                            b{
+                                                //@include flexbox();
+                                                @include box-sizing(border-box);
+                                                width: 100%;
+                                                height: .18rem;
+                                                font-size: .08rem;
+                                                font-weight: normal;
+                                                margin-top: 10px;
+                                                vertical-align: bottom;
+                                                color: #C5C5C7;
+                                                position: absolute;
+                                                bottom: 5px;
+
+                                                .yo-ico{
+                                                    @include flex(1)
+                                                    display: inline-block;
+                                                    width: .18rem;
+                                                    height: .18rem;
+                                                    font-size: .08rem;
+                                                    border-radius: 50%;
+                                                    background-color: #C5A191;
+                                                    color: #fff;
+                                                    line-height: .14rem;
+                                                    text-align: center;
+                                                }
+                                                div{
+                                                    float: right;
+                                                    span{
+                                                        @include box-sizing(border-box);
+                                                        padding: 2px;
+                                                        margin-left: 2px;
+                                                        border: 1px solid #bbb;
+                                                        color: #bbb;
+
+                                                        &:nth-child(1){
+                                                            border: 1px solid #CBC0BC;
+                                                            color: #CBC0BC;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+
+                                        &:nth-child(1){
+                                            @include border(1px 0, #C5C5C7);
+                                        }
+                                    }
+                                    .watch-more{
+                                        text-align: center;
+                                        display: block;
+                                        height: .3rem;
+                                        line-height: .3rem;
+                                        color: #ccc;
+                                        font-size: .12rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

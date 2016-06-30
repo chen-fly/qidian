@@ -1,0 +1,54 @@
+<div class="m-home">
+	<header>
+		<ul>
+			<li>
+				<span action-type="switch.login" data-tag="login">登录</span>
+			</li>
+			<li><span>我的书架</span></li>
+			<li class="yo-ico">&#xe60a;</li>
+			<li class="yo-ico">&#xe766;</li>
+		</ul>
+	</header>
+	<nav>
+		<ul>
+			<li><span>每日导读</span></li>
+			<li>
+				<h3>重生末日前夕，夺回一线生机！</h3>
+				<p>-- 《末日轮盘》 幻动 著</p>
+			</li>
+		</ul>
+	</nav>
+	<div class="swiper-container" id="book-swiper">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<section spa-widget="scroll" data-scroll-id="bookScroll">
+				<!--<section>-->
+					<div>
+						<div class="head">
+	                      	<img src="/qidian/images/arrow.png" width="40" height="40"/>
+	                      	<span>下拉刷新...</span>
+	                    </div>
+						<div class="main-list" ms-repeat-value="bookList">
+							<img ms-src="value.imgsrc"/>
+							<div class="intd">
+								<h2 ms-text="value.bookName">琴帝1</h2>
+								<div>
+									<p ms-text="value.author">唐家三少 著</p>
+									<b>  / 已读  </b>
+									<b ms-text="value.progress">8.0</b>
+									<b>%</b>
+								</div>
+								<b ms-text="value.state">完本</b>
+							</div>
+						</div>
+						 <div class="foot">
+                      		<img src="/qidian/images/arrow.png" width="40" height="40"/>
+                      		<span>上拉加载更多...</span>
+                  		</div>
+					</div>
+				</section>
+			</div>
+				
+		</div>
+	</div>
+</div>

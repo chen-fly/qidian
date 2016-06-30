@@ -1,0 +1,202 @@
+<div class="m-special">
+	<header>
+		<ul class="headerList">
+			<li>
+			</li>
+			<li class="headerNav">
+				<div>
+					<span class="active" action-type="switch.tabs.special">男生</span>
+					<span action-type="switch.tabs.special">女生</span>
+				</div>
+			</li>
+			<li class="yo-ico">&#xe60a;</li>
+			<li class="yo-ico">&#xe766;</li>
+		</ul>
+	</header>
+	<div class="swiper-container" id="special-sex-swiper">
+		<div class="swiper-wrapper">
+		    <div class="swiper-slide">
+		        <nav>
+					<div class="swiper-container" id="special-auto-swiper">
+					  <div class="swiper-wrapper">
+					    <div class="swiper-slide">
+					      <img src="/qidian/images/banner1.jpg">
+					    </div>
+					    <div class="swiper-slide">
+					      <img src="/qidian/images/banner2.jpg">
+					    </div>
+					    <div class="swiper-slide">
+					      <img src="/qidian/images/banner3.jpg">
+					    </div>
+					    <div class="swiper-slide">
+					      <img src="/qidian/images/banner4.jpg">
+					    </div>
+					  </div>
+					</div>
+				</nav>
+				<div class="broadcast">
+					<img src="/qidian/images/beep.png"/>
+					<span>独立日:卷土重来！血在燃，战不息！</span>
+				</div>
+				<div class="swiper-container" id="special-swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<section spa-widget="scroll">
+								<div>
+									<div class="special-moudle" ms-repeat-value="thematicListMan">
+										<div class="title">
+											<h2 ms-text="value.thematic">畅销精选</h2>
+											<span ms-text="value.thematicIntrd">当红好书，不看你就out了！</span>
+										</div>
+										<div class="main-list">
+											<img ms-src="value.book[0].imgsrc"/>
+											<div class="intd">
+												<h2 ms-text="value.book[0].bookName">琴帝1</h2>
+												<p ms-text="value.book[0].bookIntrd">九叠琴音震寰宇，谁敢闻言不识君？</p>
+												<b>
+													<i class="yo-ico">&#xe645;</i>
+													<span  ms-text="value.book[0].bookAuthor">唐家三少</span>
+													<div>
+														<span ms-text="value.book[0].bookKind">玄幻</span>
+														<span  ms-text="value.book[0].state">连载</span>
+														<span><em  ms-text="value.book[0].words">1123</em>万字</span>
+													</div>
+												</b>
+											</div>
+										</div>
+										<div class="main-list">
+											<img ms-src="value.book[1].imgsrc"/>
+											<div class="intd">
+												<h2 ms-text="value.book[1].bookName">琴帝1</h2>
+												<p ms-text="value.book[1].bookIntrd">九叠琴音震寰宇，谁敢闻言不识君？</p>
+												<b>
+													<i class="yo-ico">&#xe645;</i>
+													<span  ms-text="value.book[1].bookAuthor">唐家三少</span>
+													<div>
+														<span ms-text="value.book[1].bookKind">玄幻</span>
+														<span  ms-text="value.book[1].state">连载</span>
+														<span><em  ms-text="value.book[1].words">1123</em>万字</span>
+													</div>
+												</b>
+											</div>
+										</div>
+										<div class="main-list">
+											<img ms-src="value.book[2].imgsrc"/>
+											<div class="intd">
+												<h2 ms-text="value.book[2].bookName">琴帝1</h2>
+												<p ms-text="value.book[2].bookIntrd">九叠琴音震寰宇，谁敢闻言不识君？</p>
+												<b>
+													<i class="yo-ico">&#xe645;</i>
+													<span  ms-text="value.book[2].bookAuthor">唐家三少</span>
+													<div>
+														<span ms-text="value.book[2].bookKind">玄幻</span>
+														<span  ms-text="value.book[2].state">连载</span>
+														<span><em  ms-text="value.book[2].words">1123</em>万字</span>
+													</div>
+												</b>
+											</div>
+										</div>
+										<span class="watch-more" action-type="switch.bookMore" data-tag="bookMore">
+											查看更多
+										</span>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+		    </div>
+		    <div class="swiper-slide">
+		        <nav>
+					<div class="swiper-container" id="special-auto2-swiper">
+					  <div class="swiper-wrapper">
+					    <div class="swiper-slide">
+					      <img src="/qidian/images/banner5.jpg">
+					    </div>
+					    <div class="swiper-slide">
+					      <img src="/qidian/images/banner6.jpg">
+					    </div>
+					    <div class="swiper-slide">
+					      <img src="/qidian/images/banner7.jpg">
+					    </div>
+					    <div class="swiper-slide">
+					      <img src="/qidian/images/banner8.jpg">
+					    </div>
+					  </div>
+					</div>
+				</nav>
+				<div class="broadcast">
+					<img src="/qidian/images/beep.png"/>
+					<span>独立日:卷土重来！血在燃，战不息！</span>
+				</div>
+				<div class="swiper-container" id="special-swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<section spa-widget="scroll">
+								<div>
+									<div class="special-moudle" ms-repeat-value="thematicListWoman">
+										<div class="title">
+											<h2 ms-text="value.thematic">畅销精选</h2>
+											<span ms-text="value.thematicIntrd">当红好书，不看你就out了！</span>
+										</div>
+										<div class="main-list">
+											<img ms-src="value.book[0].imgsrc"/>
+											<div class="intd">
+												<h2 ms-text="value.book[0].bookName">琴帝1</h2>
+												<p ms-text="value.book[0].bookIntrd">九叠琴音震寰宇，谁敢闻言不识君？</p>
+												<b>
+													<i class="yo-ico">&#xe645;</i>
+													<span  ms-text="value.book[0].bookAuthor">唐家三少</span>
+													<div>
+														<span ms-text="value.book[0].bookKind">玄幻</span>
+														<span  ms-text="value.book[0].state">连载</span>
+														<span><em  ms-text="value.book[0].words">1123</em>万字</span>
+													</div>
+												</b>
+											</div>
+										</div>
+										<div class="main-list">
+											<img ms-src="value.book[1].imgsrc"/>
+											<div class="intd">
+												<h2 ms-text="value.book[1].bookName">琴帝1</h2>
+												<p ms-text="value.book[1].bookIntrd">九叠琴音震寰宇，谁敢闻言不识君？</p>
+												<b>
+													<i class="yo-ico">&#xe645;</i>
+													<span  ms-text="value.book[1].bookAuthor">唐家三少</span>
+													<div>
+														<span ms-text="value.book[1].bookKind">玄幻</span>
+														<span  ms-text="value.book[1].state">连载</span>
+														<span><em  ms-text="value.book[1].words">1123</em>万字</span>
+													</div>
+												</b>
+											</div>
+										</div>
+										<div class="main-list">
+											<img ms-src="value.book[2].imgsrc"/>
+											<div class="intd">
+												<h2 ms-text="value.book[2].bookName">琴帝1</h2>
+												<p ms-text="value.book[2].bookIntrd">九叠琴音震寰宇，谁敢闻言不识君？</p>
+												<b>
+													<i class="yo-ico">&#xe645;</i>
+													<span  ms-text="value.book[2].bookAuthor">唐家三少</span>
+													<div>
+														<span ms-text="value.book[2].bookKind">玄幻</span>
+														<span  ms-text="value.book[2].state">连载</span>
+														<span><em  ms-text="value.book[2].words">1123</em>万字</span>
+													</div>
+												</b>
+											</div>
+										</div>
+										<span class="watch-more" action-type="switch.bookMore" data-tag="bookMore">
+											查看更多
+										</span>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+		    </div>
+		</div>
+	</div>
+</div>

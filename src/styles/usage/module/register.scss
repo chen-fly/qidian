@@ -1,0 +1,33 @@
+@import "../../lib/widget/yo-dialog";
+
+@include yo-dialog(
+  $name: register,
+  $height: 3rem
+)
+.m-register{
+    height: 100%;
+    margin-top: -130%;
+    .yo-dialog{
+        margin-left: 50%;
+        transform: translateX(-50%);
+
+        .bd{
+            height: .9rem!important;
+            .yo-list{
+                height: .9rem!important;
+                .item{
+                    @include flexbox();
+                    display: block;
+                    margin-top: .05rem;
+                    .mark{
+                      display: inline-block;
+                      width: .7rem;
+                    }
+                    .flex{
+                      width: 1.8rem;
+                    }
+                }
+            }
+        }
+    }
+}

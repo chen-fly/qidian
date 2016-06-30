@@ -1,0 +1,47 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+    {
+      "id": 1,
+      "imgsrc": "/qidian/images/wzyx.png",
+      "bookName": "王者游侠",
+      "author": "七颗蓝莓 著",
+      "progress":"8.1",
+      "state": "连载至：第一百七十四章 收获"
+    },
+    {
+      "id": 2,
+      "imgsrc": "/qidian/images/lhws.png",
+      "bookName": "龙皇武神",
+      "author": "步征 著",
+      "progress":"8.2",
+      "state": "连载至：第1218章 龙家插手，凌云发飙"
+    },
+    {
+      "id": 3,
+      "imgsrc": "/qidian/images/xjzm.png",
+      "bookName": "玄界之门",
+      "author": "忘语 著",
+      "progress":"8.3",
+      "state": "连载至：第三百四十章 重返云翼"
+    },
+    {
+      "id": 4,
+      "imgsrc": "/qidian/images/wyzsjjxlr.png",
+      "bookName": "网游之神级机械猎人",
+      "author": "你洗的马里奥 著",
+      "progress":"8.4",
+      "state": "连载至：第一七零章 胜利者的奖赏（求月票）"
+    },
+    {
+      "id": 5,
+      "imgsrc": "/qidian/images/wysh.png",
+      "bookName": "文艺生活",
+      "author": "薪越 著",
+      "progress":"8.5",
+      "state": "连载至：第一百六十四章 邀请"
+    }
+  ]
+}

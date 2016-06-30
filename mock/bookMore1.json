@@ -1,0 +1,88 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+  	{
+      "imgsrc": "/qidian/images/kjcc.jpg",
+      "bookName": "科技传承",
+      "bookAuthor": "一桶布丁",
+      "bookIntrd": "获外星文明传承，以科技为第一生产力为核心，打造出强大的商业帝国！",
+      "bookKind": "都市",
+      "state": "连载",
+      "words": "150.5"
+  	},
+  	{
+      "imgsrc": "/qidian/images/wskj.jpg",
+      "bookName": "武神空间",
+      "bookAuthor": "傅啸尘",
+      "bookIntrd": "什么天才在他的面前都是浮云！",
+      "bookKind": "玄幻",
+      "state": "连载",
+      "words": "1122.6"
+  	},
+  	{
+      "imgsrc": "/qidian/images/wzmsytf.jpg",
+      "bookName": "我在末世有套房",
+      "bookAuthor": "晨星LL",
+      "bookIntrd": "拥有自由穿梭现实与辐射的废土世界能力，江晨要打造出横跨两界的帝国",
+      "bookKind": "科幻",
+      "state": "连载",
+      "words": "203.5"
+  	},
+  	{
+      "imgsrc": "/qidian/images/bpzg.png",
+      "bookName": "白袍总管",
+      "bookAuthor": "萧舒",
+      "bookIntrd": "转世重生于武学昌盛的世界，身怀佛家神通，从国公府的杂役成为王府总管",
+      "bookKind": "武侠",
+      "state": "连载",
+      "words": "131"
+  	},
+  	{
+      "imgsrc": "/qidian/images/bjsg.png",
+      "bookName": "兵甲三国",
+      "bookAuthor": "湘南笑笑生",
+      "bookIntrd": "给我一个姑娘，我创造不了一个民族；给我一块木头，我能瞬间制作出一把连弩",
+      "bookKind": "历史",
+      "state": "连载",
+      "words": "97"
+  	},
+  	{
+      "imgsrc": "/qidian/images/cxxsjgl.png",
+      "bookName": "从仙侠世界归来",
+      "bookAuthor": "发狂的妖魔",
+      "bookIntrd": "从仙侠世界修炼五千年，萧凡带着一身神秘莫测，通天动地的能力，再度回归地球",
+      "bookKind": "都市",
+      "state": "连载",
+      "words": "165"
+  	},
+  	{
+      "imgsrc": "/qidian/images/ydemkj.png",
+      "bookName": "异度恶魔空间",
+      "bookAuthor": "老牛十八岁",
+      "bookIntrd": "2018年4月10日，一个看似普通但却极有可能改变人类历史进程的日子。",
+      "bookKind": "玄幻",
+      "state": "连载",
+      "words": "29"
+  	},
+  	{
+      "imgsrc": "/qidian/images/mwzyxxt.png",
+      "bookName": "漫威之英雄系统",
+      "bookAuthor": "智者如风01",
+      "bookIntrd": "穿越到漫威，随身带着一个系统，只要有足够的兑换点数，他就能兑换到各种能力",
+      "bookKind": "科幻",
+      "state": "连载",
+      "words": "27"
+  	},
+  	{
+      "imgsrc": "/qidian/images/dfw.png",
+      "bookName": "大富翁",
+      "bookAuthor": "超侧卫",
+      "bookIntrd": "忙碌与悠闲，贫困与富裕，你的选择是什么？",
+      "bookKind": "都市",
+      "state": "连载",
+      "words": "18"
+  	}
+  ]
+}

@@ -1,0 +1,35 @@
+@import "../../lib/widget/yo-dialog";
+
+@include yo-dialog(
+  $name: login,
+  $height: 2rem
+)
+.m-login{
+    height: 100%;
+    margin-top: -130%;
+    .yo-dialog{
+        margin-left: 50%;
+        transform: translateX(-50%);
+        .hd{
+            .register{
+                border-radius: .05rem;
+                padding: 0 .03rem;
+                background-color: #0ff;
+                position: absolute;
+                height: .2rem;
+                margin-top: .12rem;
+                line-height: .2rem;
+            }
+        }
+        .bd{
+            height: .9rem!important;
+            .yo-list{
+                height: .9rem!important;
+                .item{
+                    display: block;
+                    margin-top: .05rem;
+                }
+            }
+        }
+    }
+}

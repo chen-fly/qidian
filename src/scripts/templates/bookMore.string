@@ -1,0 +1,39 @@
+<div class="m-bookMore">
+	<header>
+		<ul>
+			<li>
+				<span action-type="exit">&lt;</span>
+			</li>
+			<li><span>更多图书</span></li>
+			<li class="yo-ico"></li>
+			<li class="yo-ico"></li>
+		</ul>
+	</header>
+	<div class="swiper-container" id="book-swiper">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<section spa-widget="scroll" data-scroll-id="bookScroll">
+				<!--<section>-->
+					<div>
+						<div class="main-list" ms-repeat-value="bookMoreList">
+							<img ms-src="value.imgsrc"/>
+							<div class="intd">
+								<h2 ms-text="value.bookName">琴帝</h2>
+								<p ms-text="value.bookIntrd">九叠琴音震寰宇，谁敢闻言不识君？</p>
+								<b>
+									<i class="yo-ico">&#xe645;</i>
+									<span  ms-text="value.bookAuthor">唐家三少</span>
+									<div>
+										<span ms-text="value.bookKind">玄幻</span>
+										<span  ms-text="value.state">完本</span>
+										<span><em  ms-text="value.words">1123</em>万字</span>
+									</div>
+								</b>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</div>
+	</div>
+</div>

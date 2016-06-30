@@ -1,0 +1,24 @@
+<div class="m-login">
+	<div class="yo-dialog yo-dialog-login">
+	    <header class="hd">
+	        <h2 class="title">用户登录</h2>
+        	<span class="affirm register" action-type="switch.register">注册</span>
+	    </header>
+	    <div class="bd">
+	        <div class="yo-list">
+			    <label class="item item-input">
+			        <span class="mark">账号</span>
+			        <input type="text" class="yo-input flex" placeholder="请输入用户名" />
+			    </label>
+			    <label class="item item-input">
+			        <span class="mark">密码</span>
+			        <input type="password" class="yo-input flex" placeholder="请输入密码" />
+			    </label>
+			</div>
+	    </div>
+	    <footer class="ft">
+	        <button class="yo-btn yo-btn-dialog yo-btn-l" action-type="close">取消</button>
+	        <button class="yo-btn yo-btn-dialog yo-btn-l">确定</button>
+	    </footer>
+	</div>
+</div>

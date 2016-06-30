@@ -1,0 +1,99 @@
+.m-detial{
+    @include flexbox();
+    @include flex-direction(column);
+    width: 100%;
+    height: 100%;
+    header{
+        width: 100%;
+        height: 1.44rem;
+        background: url(/qidian/images/detial-bg.jpg) no-repeat top center;
+        background-size: cover;
+
+        ul{
+            @include flexbox();
+            @include box-sizing(border-box);
+            height: 100%;
+            //background: rgba(255, 55, 111, 1);;
+
+            li{
+                height: 100%;
+                text-align: center;
+                line-height: .44rem;
+              //  font-weight: bolder;
+                color: #fff;
+
+
+                &:nth-child(1){
+                    width: .8rem;
+                    font-size: .16rem;
+                };
+                &:nth-child(2){
+                    @include flex(1);
+                };
+                &.yo-ico{
+                    width: .44rem;
+                    font-size: .16rem;
+                };
+            }
+        }
+    }
+    section{
+      @include flex(1);
+      width: 100%;
+      position: relative;
+      z-index: 9999;
+
+      .main-list{
+          @include box-sizing(border-box);
+          @include flexbox();
+          width: 100%;
+          padding: .1rem;
+          position: absolute;
+          top: -1.1rem;
+          color: white;
+          z-index: 9999;
+
+          img{
+              display: inline-block;
+              @include box-sizing(border-box);
+              @include border(1px, #C5C5C7);
+              height: 1.1rem;
+          }
+          .intd{
+              @include flex(1);
+              @include box-sizing(border-box);
+              display: inline-block;
+              vertical-align: top;
+              margin-left: .15rem;
+
+              div{
+                margin-bottom: .05rem;
+                  p{
+                      @include box-sizing(border-box);
+                      display: inline-block;
+                      font-size: .12rem;
+                      height: .2rem;
+                      margin-top: .05rem;
+                  }
+                  b{
+                      display: inline-block;
+                  }
+
+                  &:nth-of-type(2){
+                    margin-top: .05rem;
+                  }
+              }
+              b{
+                  @include box-sizing(border-box);
+                  font-size: .12rem;
+                  font-weight: normal;
+              }
+          }
+      }
+
+      .abc{
+        height: 2rem;
+        background-color: #f66;
+      }
+    }
+}

@@ -1,0 +1,182 @@
+#container{
+    .m-index{
+        .m-home{
+            @include flexbox();
+            @include flex-direction(column);
+            width: 100%;
+            height: 100%;
+            header{
+                width: 100%;
+                height: .44rem;
+
+                ul{
+                    @include flexbox();
+                    @include box-sizing(border-box);
+                    height: 100%;
+                    background-color: #B42737;
+
+                    li{
+                        height: 100%;
+                        text-align: center;
+                        line-height: .44rem;
+                        font-weight: bolder;
+                        color: #fff;
+
+
+                        &:nth-child(1){
+                            width: .66rem;
+                            text-indent: -1em;
+                            color: #F8D71D;
+                            background: url(/qidian/images/bookrackmark.png) no-repeat left 50%;
+                            background-size: 80%;
+                        };
+                        &:nth-child(2){
+                            @include flex(1);
+                        };
+                        &.yo-ico{
+                            width: .44rem;
+                            font-size: .2rem;
+                        };
+                    }
+                }
+            }
+            nav{
+                width: 100%;
+                height: .44rem;
+                background-color: #fef5e6;
+
+                ul{
+                    width: 100%;
+                    height: 100%;
+                    @include flexbox();
+
+                    li{
+                        height: 100%;
+
+                        &:nth-child(1){
+                            width: .66rem;
+                            text-align: center;
+                            font-size: 12px;
+                            @include flexbox();
+                            @include flex-direction(column);
+                            @include align-items(center);
+                            @include justify-content(center);
+
+                            span{
+                                display: block;
+                                width: 40%;
+                                line-height: 14px;
+                            }
+                        }
+                        &:nth-child(2){
+                            @include flex(1);
+                            h3,p{
+                                font-size: 12px;
+                                line-height: .22rem;
+                            }
+                            p{
+                                color: #aaa;
+                            }
+                        }
+                    }
+                }
+            }
+            #book-swiper{
+                @include flex(1);
+                width: 100%;
+
+                section{
+                    width: 100%;
+                    height: 100%;
+                    overflow: hidden;
+                    background-color: #fafafa;
+
+                    // iscroll pull to refresh
+                    .head {
+                        text-align: center;
+                        height: .3rem;
+                        line-height: .3rem;
+                    }
+                    .head img {
+                        display: inline-block;
+                        transform: rotate(180deg);
+                        -webkit-transform: rotate(180deg);
+                        transition: transform 150ms;
+                        -webkit-transition: transform 150ms;
+                        height: .15rem;
+                        width: .15rem;
+                    }
+                    .up {
+                        transform: rotate(360deg) !important;
+                        -webkit-transform: rotate(360deg) !important;
+                    }
+                    .foot {
+                        text-align: center;
+                        height: .3rem;
+                        line-height: .3rem;
+                    }
+                    .foot img {
+                        display: inline-block;
+                        /*transform: rotate(0deg);*/
+                        /*-webkit-transform: rotate(0deg);*/
+                        transition: transform 150ms;
+                        -webkit-transition: transform 150ms;
+                        height: .15rem;
+                        width: .15rem;
+                    }
+                    .down {
+                        transform: rotate(180deg) !important;
+                        -webkit-transform: rotate(180deg) !important;
+                    }
+
+                    .main-list{
+                        @include box-sizing(border-box);
+                        @include border(0 0 1px 0, #C5C5C7);
+                        @include flexbox();
+                        width: 100%;
+                        padding: .1rem;
+
+                        img{
+                            display: inline-block;
+                            @include box-sizing(border-box);
+                            @include border(1px, #C5C5C7);
+                            height: .7rem;
+                        }
+                        .intd{
+                            @include flex(1);
+                            @include box-sizing(border-box);
+                            display: inline-block;
+                            vertical-align: top;
+                            margin-left: .05rem;
+
+                            div{
+                                p{
+                                    @include box-sizing(border-box);
+                                    display: inline-block;
+                                    font-size: .12rem;
+                                    height: .2rem;
+                                    margin-top: .05rem;
+                                    color: #C5C5C7;
+                                }
+                                b{
+                                    display: inline-block;
+                                }
+                            }
+                            b{
+                                @include box-sizing(border-box);
+                                font-size: .12rem;
+                                font-weight: normal;
+                                margin-top: .03rem;
+                                color: #C5C5C7;
+                            }
+                        }
+
+                        &:nth-child(1){
+                            @include border(1px 0, #C5C5C7);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

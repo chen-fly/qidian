@@ -1,0 +1,23 @@
+<div id="container">
+	<div class="m-index"></div>
+	<footer>
+		<ul>
+			<li class="active" action-type="switch.tabs" data-tag="home">
+				<i class="yo-ico">&#xe622;</i>
+				<b>书架</b>
+			</li>
+			<li action-type="switch.tabs" data-tag="special">
+				<i class="yo-ico">&#xe68b;</i>
+				<b>精选</b>
+			</li>
+			<li action-type="switch.tabs" data-tag="found">
+				<i class="yo-ico">&#xe611;</i>
+				<b>发现</b>
+			</li>
+			<li action-type="switch.tabs" data-tag="my">
+				<i class="yo-ico">&#xe645;</i>
+				<b>账户</b>
+			</li>
+		</ul>
+	</footer>
+</div>

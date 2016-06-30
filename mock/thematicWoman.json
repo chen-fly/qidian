@@ -1,0 +1,109 @@
+{
+  "res": true,
+  "errcode": -1,
+  "errmsg": "",
+  "data": [
+    {
+      "id": 1,
+      "thematic": "畅销精选",
+      "thematicIntrd": "当红好书，本月最畅销！",
+      "book": [
+      	{
+		      "imgsrc": "/qidian/images/tn.png",
+		      "bookName": "铁娘",
+		      "bookAuthor": "禾景",
+		      "bookIntrd": "她从末世来到人口众多的金家；身为金家最小的女儿，她获得的比其他人多得多",
+		      "bookKind": "古代言情",
+		      "state": "连载",
+		      "words": "27"
+      	},
+      	{
+		      "imgsrc": "/qidian/images/cszqqnh.png",
+		      "bookName": "重生之恰恰年华",
+		      "bookAuthor": "宋颂3124",
+		      "bookIntrd": "一朝穿回十八年前，颜秋意誓要活出自己的恣意人生。",
+		      "bookKind": "现代言情",
+		      "state": "连载",
+		      "words": "44"
+      	},
+      	{
+		      "imgsrc": "/qidian/images/ljjn.png",
+		      "bookName": "林家娇娘",
+		      "bookAuthor": "琼姑娘",
+		      "bookIntrd": "两个男人，一个金榜题名步步青云，一个卧病在床奄奄一息。",
+		      "bookKind": "古代言情",
+		      "state": "连载",
+		      "words": "75"
+      	}
+      ]
+    },
+    {
+      "id": 2,
+      "thematic": "主编力荐",
+      "thematicIntrd": "精品佳作，强力推荐！",
+      "book": [
+      	{
+		      "imgsrc": "/qidian/images/blgl.png",
+		      "bookName": "白莲攻略",
+		      "bookAuthor": "咸客",
+		      "bookIntrd": "白莲说:对于想让我给他做谋士的男人，我靠的是脑子。",
+		      "bookKind": "古代言情",
+		      "state": "连载",
+		      "words": "123"
+      	},
+      	{
+		      "imgsrc": "/qidian/images/cszywrc.png",
+		      "bookName": "重生之养娃日常",
+		      "bookAuthor": "许陸陸",
+		      "bookIntrd": "穿越八十年代，可以忍，成为已婚妇女，继续忍，成为虐待儿子的亲妈，没法忍。",
+		      "bookKind": "现代言情",
+		      "state": "连载",
+		      "words": "19"
+      	},
+      	{
+		      "imgsrc": "/qidian/images/sz.png",
+		      "bookName": "善终",
+		      "bookAuthor": "玖拾陆",
+		      "bookIntrd": "杜家有女，成亲三月，丈夫领皇命披挂出征，从此聚少离多。",
+		      "bookKind": "古代言情",
+		      "state": "连载",
+		      "words": "49"
+      	}
+      ]
+    },
+    {
+      "id": 3,
+      "thematic": "免费新书",
+      "thematicIntrd": "新书抢鲜，快人一步！",
+      "book": [
+      	{
+		      "imgsrc": "/qidian/images/hmdn.png",
+		      "bookName": "侯门毒女",
+		      "bookAuthor": "水玲珑001",
+		      "bookIntrd": "她，生性清冷，手段狠辣，更是唐门后人。她信奉：人不犯我，我不犯人。",
+		      "bookKind": "古代言情",
+		      "state": "连载",
+		      "words": "17"
+      	},
+      	{
+		      "imgsrc": "/qidian/images/yttx.png",
+		      "bookName": "医途天下",
+		      "bookAuthor": "静魅儿",
+		      "bookIntrd": "霸道偏执，浓烈似酒的情感，却是一场计中计。",
+		      "bookKind": "玄幻",
+		      "state": "连载",
+		      "words": "1123"
+      	},
+      	{
+		      "imgsrc": "/qidian/images/lwhtzdess.png",
+		      "bookName": "论我和土著的二三事",
+		      "bookAuthor": "阿瑜儿",
+		      "bookIntrd": "万种风情虎熊腰，婀娜多姿木瓜脸，生前已是女豪杰，谁怕死了要穿越！",
+		      "bookKind": "玄幻言情",
+		      "state": "连载",
+		      "words": "19"
+      	}
+      ]
+    }
+  ]
+}

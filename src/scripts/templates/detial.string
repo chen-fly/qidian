@@ -1,0 +1,32 @@
+<div class="m-detial">
+  <header class="detialHead">
+    <ul>
+      <li>
+        <span action-type="exit">&lt; 返回</span>
+      </li>
+      <li><span></span></li>
+      <li class="yo-ico"></li>
+      <li class="yo-ico">&#xe627;</li>
+    </ul>
+  </header>
+  <section class="detialSection" spa-widget="scroll" data-scroll-id="detialScroll">
+    <div>
+      <div class="main-list">
+        <img src="/qidian/images/book.png"/>
+        <div class="intd">
+          <h2>琴帝1</h2>
+          <div>
+            <p>唐家三少 著</p>
+          </div>
+          <b>军事 | 523.2万字</b>
+          <div>
+            ★★★★★ 209万人评价
+          </div>
+        </div>
+      </div>
+      <div class="abc">
+
+      </div>
+    </div>
+  </section>
+</div>

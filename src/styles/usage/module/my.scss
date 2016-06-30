@@ -1,0 +1,161 @@
+#container{
+    .m-index{
+        .m-my{
+            @include flexbox();
+            @include flex-direction(column);
+            width: 100%;
+            height: 100%;
+            header{
+                width: 100%;
+                height: .44rem;
+                
+                ul{
+                    @include flexbox();
+                    @include box-sizing(border-box);
+                    height: 100%;
+                    background-color: #B42737;
+                    
+                    li{
+                        height: 100%;
+                        text-align: center;
+                        line-height: .44rem;
+                        font-weight: normal;
+                        color: #fff;
+                        
+                        
+                        &:nth-child(1){
+                            width: .66rem;
+                            text-indent: -1em;
+                            color: #F8D71D;
+                           // background: url(/qidian/images/bookrackmark.png) no-repeat left 50%;
+                            background-size: 80%;
+                        };
+                        &:nth-child(2){
+                            @include flex(1);
+                        };
+                        &.yo-ico{
+                            width: .44rem;
+                            font-size: .2rem;
+                        };
+                    }
+                }
+            }
+            
+            
+            section{
+                width: 100%;
+                background-color: #eceef0;
+                margin-top: .15rem;
+                
+                &:nth-of-type(1){
+                    .foundList{
+                        &:nth-child(1){
+                            .yo-ico{
+                                background-color: #FFCC38;
+                            }
+                        }
+                        &:nth-child(2){
+                            .yo-ico{
+                                background-color: #66BDF8;
+                            }
+                        }
+                        &:nth-child(3){
+                            .yo-ico{
+                                background-color: #8CC660;
+                            }
+                        }
+                        &:nth-child(4){
+                            .yo-ico{
+                                background-color: #FF6D49;
+                            }
+                        }
+                        &:nth-child(5){
+                            .yo-ico{
+                                background-color: #30C8CB;
+                            }
+                        }
+                    }
+                }
+                &:nth-of-type(2){
+                    .foundList{
+                        &:nth-child(1){
+                            .yo-ico{
+                                background-color: #89C95B;
+                            }
+                        }
+                        &:nth-child(2){
+                            .yo-ico{
+                                background-color: #89C95B;
+                            }
+                        }
+                        &:nth-child(3){
+                            .yo-ico{
+                                background-color: #89C95B;
+                            }
+                        }
+                    }
+                }
+                &:nth-of-type(3){
+                    .foundList{
+                        &:nth-child(1){
+                            .yo-ico{
+                                background-color: #63BCF8;
+                            }
+                        }
+                    }
+                }
+                
+                .foundList{
+                    @include box-sizing(border-box);
+                    @include border(0 0 1px 0, #ddd);
+                    display: inline-block;
+                    padding-left: .1rem;
+                    width: 100%;
+                    height: .4rem;
+                    background-color: #FAFAFA;
+                    
+                    .yo-ico{
+                        display: inline-block;
+                        width: .22rem;
+                        height: .22rem;
+                        font-size: .16rem;
+                        line-height: .22rem;
+                        margin-top: .09rem;
+                        text-align: center;
+                        //background-color: #f66;
+                        color: #fff;
+                        border-radius: .05rem;
+                        vertical-align: baseline;
+                    }
+                    .tag{
+                        display: inline-block;
+                        font-size: .14rem;
+                        margin-left: .05rem;
+                    }
+                    .right{
+                        float: right;
+                        display: inline-block;
+                        margin-right: .15rem;
+                        line-height: .4rem;
+                        color: #D2D2D2;
+                        b,img,span{
+                            display: inline-block;
+                            height: .4rem;
+                        }
+                        b{
+                            font-size: .12rem;
+                        }
+                        img{
+                            margin: -0.05rem .05rem 0 .05rem;
+                            height: .3rem;
+                        }
+                        span{
+                            font-size: .18rem;
+                            vertical-align: bottom;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
